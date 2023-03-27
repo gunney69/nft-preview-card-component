@@ -23,7 +23,7 @@ main {
     background-color: hsl(216, 50%, 16%);
     border-radius: 20px;
     justify-content: center;
-    height: 60vh;
+    min-height: 60vh;
     width: 35vh;
     box-shadow: 0 20px 10px 5px hsl(216, 50%, 10%);
     position: fixed;
@@ -40,8 +40,8 @@ main {
 }
 
 .imgNFT {
-    height: auto;
-    width: 280px;
+    height: 100%;
+    width: 100%;
     border-radius: 10px;
     position: relative;
     display: block;
